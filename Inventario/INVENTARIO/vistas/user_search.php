@@ -1,7 +1,8 @@
-<div class="container is-fluid mb-6 center">
-    <h1 class="title">Usuarios</h1>
-    <h2 class="subtitle">Buscar usuario</h2>
-</div>
+<div class="container pb-6 pt-6 notification is-danger is-light is-rounded center">
+	<div class="center">
+		<h1 class="title">Usuarios</h1>
+		<h2 class="subtitle">Agregar nuevo usuario</h2>
+	<div class="form-rest mb-6 mt-6"></div>
 
 <div class="container pb-6 pt-6">
     <?php

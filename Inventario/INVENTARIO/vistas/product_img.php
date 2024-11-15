@@ -1,7 +1,9 @@
-<div class="container is-fluid mb-6 center">
-	<h1 class="title">Productos</h1>
-	<h2 class="subtitle">Actualizar imagen de producto</h2>
-</div>
+<div class="container pb-6 pt-6 notification is-danger is-light is-rounded center">
+	<div class="center">
+		<h1 class="title">Productos</h1>
+		<h2 class="subtitle">Actualizar imagen de producto</h2>
+
+
 
 <div class="container pb-6 pt-6">
 	<?php
@@ -32,7 +34,7 @@
 				<input type="hidden" name="img_del_id" value="<?php echo $datos['producto_id']; ?>">
 
 				<p class="has-text-centered">
-					<button type="submit" class="button is-danger is-rounded">Eliminar imagen</button>
+					<button type="submit" class="button is-danger is-rounded animado">Eliminar imagen</button>
 				</p>
 			</form>
 			<?php }else{ ?>
@@ -60,7 +62,7 @@
 				  	</label>
 				</div>
 				<p class="has-text-centered">
-					<button type="submit" class="button is-success is-rounded">Actualizar</button>
+					<button type="submit" class="button is-danger is-rounded animado">Actualizar</button>
 				</p>
 			</form>
 		</div>

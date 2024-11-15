@@ -1,11 +1,10 @@
-<div class="container is-fluid mb-6 center is-danger">
-	<h1 class="title">Usuarios</h1>
-	<h2 class="subtitle">Agregar nuevo usuario</h2>
+<div class="container pb-6 pt-6 notification is-danger is-light is-rounded center">
+	<div class="center">
+		<h1 class="title">Usuarios</h1>
+		<h2 class="subtitle">Agregar nuevo usuario</h2>
+	<br />
+
 </div>
-<div class="container pb-6 pt-6">
-
-	<div class="form-rest mb-6 mt-6"></div>
-
 	<form action="./php/usuario_guardar.php" method="POST" class="FormularioAjax" autocomplete="off" >
 		<div class="columns">
 		  	<div class="column">

@@ -21,14 +21,14 @@
 
 	    	if($eliminar_usuario->rowCount()==1){
 		        echo '
-		            <div class="notification is-info is-light">
+		            <div class="notification is-danger is-dark">
 		                <strong>¡USUARIO ELIMINADO!</strong><br>
 		                Los datos del usuario se eliminaron con exito
 		            </div>
 		        ';
 		    }else{
 		        echo '
-		            <div class="notification is-danger is-light">
+		            <div class="notification is-danger is-dark">
 		                <strong>¡Ocurrio un error inesperado!</strong><br>
 		                No se pudo eliminar el usuario, por favor intente nuevamente
 		            </div>
@@ -37,7 +37,7 @@
 		    $eliminar_usuario=null;
     	}else{
     		echo '
-	            <div class="notification is-danger is-light">
+	            <div class="notification is-danger is-dark">
 	                <strong>¡Ocurrio un error inesperado!</strong><br>
 	                No podemos eliminar el usuario ya que tiene productos registrados por el
 	            </div>
@@ -46,7 +46,7 @@
     	$check_productos=null;
     }else{
         echo '
-            <div class="notification is-danger is-light">
+            <div class="notification is-danger is-dark">
                 <strong>¡Ocurrio un error inesperado!</strong><br>
                 El USUARIO que intenta eliminar no existe
             </div>

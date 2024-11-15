@@ -1,7 +1,8 @@
-<div class="container is-fluid mb-6 center">
-	<h1 class="title">Categorías</h1>
-	<h2 class="subtitle">Actualizar categoría</h2>
-</div>
+<div class="container pb-6 pt-6 notification is-danger is-light is-rounded center">
+	<div class="center">
+		<h1 class="title">Categorías</h1>
+		<h2 class="subtitle">Actualizar categoría</h2>
+
 
 <div class="container pb-6 pt-6">
 	<?php
@@ -41,7 +42,7 @@
 		  	</div>
 		</div>
 		<p class="has-text-centered">
-			<button type="submit" class="button is-success is-rounded">Actualizar</button>
+			<button type="submit" class="button is-danger is-rounded animado">Actualizar</button>
 		</p>
 	</form>
 	<?php 
