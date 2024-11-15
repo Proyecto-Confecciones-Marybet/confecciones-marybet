@@ -1,6 +1,6 @@
-<div class="container is-fluid mb-6 center">
+<div class="container is-fluid mb-6 center is-danger">
 	<h1 class="title">Usuarios</h1>
-	<h2 class="subtitle">Nuevo usuario</h2>
+	<h2 class="subtitle">Agregar nuevo usuario</h2>
 </div>
 <div class="container pb-6 pt-6">
 

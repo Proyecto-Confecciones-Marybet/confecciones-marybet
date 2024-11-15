@@ -99,7 +99,7 @@
 		  	</div>
 		</div>
 		<p class="has-text-centered">
-			<button type="submit" class="button is-success is-rounded">Actualizar</button>
+			<button type="submit" class="button is-rounded is-danger animado">Actualizar</button>
 		</p>
 	</form>
 	<?php 
