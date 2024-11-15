@@ -1,7 +1,7 @@
 <div class="main-container">
 
 	<form class="box login" action="" method="POST" autocomplete="off">
-		<h5 class="title is-5 has-text-centered">Confecciones Marybet</h5>
+		<h5 class="title is-5 has-text-centered">Taller Confecciones Marybet</h5>
 
 		<div class="field">
 			<label class="label">Usuario</label>

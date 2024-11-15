@@ -21,3 +21,9 @@ Búsqueda escribir “localhost/INVENTARIO/”
 - Inicio de sesión predeterminado:
 - Usuario: Administrador
 - Contraseña: Administrador
+
+
+
+
+CODIGO DE COLOR PROYECTO
+ff7c70
