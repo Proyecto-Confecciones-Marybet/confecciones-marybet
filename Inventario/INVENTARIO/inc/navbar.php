@@ -49,6 +49,15 @@
         </div>
 
         <div class="navbar-end">
+
+            <div class="navbar-item">
+                <a class="button is-link">Acerca De</a>
+            </div>
+
+            <div class="navbar-item">
+                <a class="button is-link">Ayuda</a>
+            </div>
+
             <div class="navbar-item">
                 <div class="buttons">
                     <a href="index.php?vista=user_update&user_id_up=<?php echo $_SESSION['id']; ?>" class="button is-link is-rounded">
