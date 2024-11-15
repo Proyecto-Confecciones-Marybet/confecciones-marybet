@@ -1,8 +1,10 @@
 <div class="main-container">
 
-	<form class="box login" action="" method="POST" autocomplete="off">
-		<h5 class="title is-5 has-text-centered">Taller Confecciones Marybet</h5>
+	<form class="box">
+		<h5 class="title is-5 has-text-centered">Bienvenid@ a Confecciones Marybet, ¡Inicia sesión!</h5>
+	</form>
 
+	<form class="box login" action="" method="POST" autocomplete="off">
 		<div class="field">
 			<label class="label">Usuario</label>
 			<div class="control">
@@ -18,7 +20,7 @@
 		</div>
 
 		<p class="has-text-centered mb-4 mt-3">
-			<button type="submit" class="button is-info is-rounded">Iniciar sesion</button>
+			<button type="submit" class="button is-danger is-rounded animado">Iniciar sesion</button>
 		</p>
 
 		<?php

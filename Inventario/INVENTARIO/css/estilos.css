@@ -1,22 +1,31 @@
 body,html{
 	height: 100%;
 	width: 100%;
+}
+
+.barradenav{
 	background-color: #ff7c70;
 }
-.main-container{
-	height: 100%;
-	width: 100%;
+
+.main-container {
+	height: 100vh; /* Altura completa de la ventana */
 	display: flex;
-	justify-content: center;
-	align-items: center;
-}
-.main-container > .login,
-.main-container > .hero-body{
+	flex-direction: column; /* Alinea los formularios en columna */
+	justify-content: center; /* Centra verticalmente */
+	align-items: center; /* Centra horizontalmente */
+	padding: 20px; /* Espacio en los bordes */
+	box-sizing: border-box; /* Asegura que el padding no afecte el tamaño total */
+  }
+  
+  .main-container > .login,
+  .main-container > .hero-body {
 	height: auto;
 	width: 100%;
 	max-width: 400px;
 	min-width: 300px;
-}
+	margin-bottom: 20px; /* Espacio entre los formularios */
+  }
+  
 .center{
 	text-align: center;
 	top: 50px;
@@ -26,3 +35,13 @@ body,html{
 	text-align: center;
 	top: 40%;
 }
+
+/* CLASE ANIMADO, PARA ANIMAR BOTONES !!! */
+.animado {
+	display: inline-block;
+	transition: transform 0.3s ease-in-out; /* Transición suave */
+  }
+  
+  .animado:hover {
+	transform: scale(1.5); /* Escala a x2 al pasar el mouse */
+  }
