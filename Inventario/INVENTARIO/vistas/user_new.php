@@ -1,7 +1,7 @@
-<div class="container is-fluid mb-6 has-text-centered">
-	<h1 class="title is-3 has-text-dark">Usuarios</h1>
-	<h2 class="subtitle is-5 has-text-grey-dark">Agregar nuevo usuario</h2>
-</div>
+<div class="container pb-6 pt-6 notification is-danger is-light is-rounded center">
+	<div class="center">
+		<h1 class="title">Usuarios</h1>
+		<h2 class="subtitle">Agregar nuevo usuario</h2>
 
 <div class="container pb-6 pt-6">
 	<div class="form-rest mb-6 mt-6"></div>
@@ -12,7 +12,7 @@
 				<div class="field">
 					<label class="label">Nombres</label>
 					<div class="control has-icons-left">
-						<input class="input is-rounded is-primary is-medium" 
+						<input class="input is-rounded is-danger is-medium" 
 						       type="text" 
 						       name="usuario_nombre" 
 						       pattern="[a-zA-ZáéíóúÁÉÍÓÚñÑ ]{3,40}" 
@@ -29,7 +29,7 @@
 				<div class="field">
 					<label class="label">Apellidos</label>
 					<div class="control has-icons-left">
-						<input class="input is-rounded is-primary is-medium" 
+						<input class="input is-rounded is-danger is-medium" 
 						       type="text" 
 						       name="usuario_apellido" 
 						       pattern="[a-zA-ZáéíóúÁÉÍÓÚñÑ ]{3,40}" 
@@ -46,7 +46,7 @@
 				<div class="field">
 					<label class="label">Usuario</label>
 					<div class="control has-icons-left">
-						<input class="input is-rounded is-info is-medium" 
+						<input class="input is-rounded is-danger is-medium" 
 						       type="text" 
 						       name="usuario_usuario" 
 						       pattern="[a-zA-Z0-9]{4,20}" 
@@ -63,7 +63,7 @@
 				<div class="field">
 					<label class="label">Email</label>
 					<div class="control has-icons-left">
-						<input class="input is-rounded is-info is-medium" 
+						<input class="input is-rounded is-danger is-medium" 
 						       type="email" 
 						       name="usuario_email" 
 						       maxlength="70">
@@ -78,7 +78,7 @@
 				<div class="field">
 					<label class="label">Clave (Usar mayúsculas y mínimo 1 carácter, mínimo 7 dígitos)</label>
 					<div class="control has-icons-left">
-						<input class="input is-rounded is-warning is-medium" 
+						<input class="input is-rounded is-danger is-medium" 
 						       type="password" 
 						       name="usuario_clave_1" 
 						       pattern="[a-zA-Z0-9$@.-]{7,100}" 
@@ -95,7 +95,7 @@
 				<div class="field">
 					<label class="label">Repetir clave</label>
 					<div class="control has-icons-left">
-						<input class="input is-rounded is-warning is-medium" 
+						<input class="input is-rounded is-danger is-medium" 
 						       type="password" 
 						       name="usuario_clave_2" 
 						       pattern="[a-zA-Z0-9$@.-]{7,100}" 
@@ -109,7 +109,7 @@
 			</div>
 
 			<div class="column is-full has-text-centered">
-				<button type="submit" class="button is-danger is-rounded is-medium is-hovered">
+				<button type="submit" class="button is-danger is-rounded is-medium is-hovered animado">
 					Guardar
 				</button>
 			</div>
