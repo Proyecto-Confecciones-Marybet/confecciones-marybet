@@ -12,18 +12,18 @@
 		  	<div class="column">
 		    	<div class="control">
 					<label>Categoría de producto</label>
-				  	<input class="input" type="text" name="categoria_nombre" pattern="[a-zA-Z0-9áéíóúÁÉÍÓÚñÑ ]{4,50}" maxlength="50" required >
+				  	<input class="input is-rounded is-danger is-medium" type="text" name="categoria_nombre" pattern="[a-zA-Z0-9áéíóúÁÉÍÓÚñÑ ]{4,50}" maxlength="50" required >
 				</div>
 		  	</div>
 		  	<div class="column">
 		    	<div class="control">
 					<label>Ubicación</label>
-				  	<input class="input" type="text" name="categoria_ubicacion" pattern="[a-zA-Z0-9áéíóúÁÉÍÓÚñÑ ]{5,150}" maxlength="150" >
+				  	<input class="input is-rounded is-danger is-medium" type="text" name="categoria_ubicacion" pattern="[a-zA-Z0-9áéíóúÁÉÍÓÚñÑ ]{5,150}" maxlength="150" >
 				</div>
 		  	</div>
 		</div>
 		<p class="has-text-centered">
-			<button type="submit" class="button is-danger animado is-rounded">Guardar</button>
+			<button type="submit" class="button is-danger animado is-rounded is-medium">Guardar</button>
 		</p>
 	</form>
 </div>

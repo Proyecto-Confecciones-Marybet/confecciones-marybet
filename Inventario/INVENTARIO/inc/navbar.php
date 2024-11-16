@@ -2,7 +2,7 @@
 
     <div class="navbar-brand">
         <a class="navbar-item" href="index.php?vista=home">
-        <img src="./img/logo.png" width="75" height="34">
+        <img src="http://localhost/confecciones-marybet/inventario/INVENTARIO/img/logo.png" width="35" height="100">
         </a>
 
         <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">

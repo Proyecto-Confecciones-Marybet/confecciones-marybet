@@ -16,13 +16,13 @@
 		  	<div class="column">
 		    	<div class="control">
 					<label>Código de tela</label>
-				  	<input class="input" type="text" name="producto_codigo" pattern="[a-zA-Z0-9- ]{1,70}" maxlength="70" required >
+				  	<input class="input is-rounded is-danger is-medium" type="text" name="producto_codigo" pattern="[a-zA-Z0-9- ]{1,70}" maxlength="70" required >
 				</div>
 		  	</div>
 		  	<div class="column">
 		    	<div class="control">
 					<label>Nombre</label>
-				  	<input class="input" type="text" name="producto_nombre" pattern="[a-zA-Z0-9áéíóúÁÉÍÓÚñÑ().,$#\-\/ ]{1,70}" maxlength="70" required >
+				  	<input class="input is-rounded is-danger is-medium" type="text" name="producto_nombre" pattern="[a-zA-Z0-9áéíóúÁÉÍÓÚñÑ().,$#\-\/ ]{1,70}" maxlength="70" required >
 				</div>
 		  	</div>
 		</div>
@@ -30,18 +30,18 @@
 		  	<div class="column">
 		    	<div class="control">
 					<label>Precio</label>
-				  	<input class="input" type="text" name="producto_precio" pattern="[0-9.]{1,25}" maxlength="25" required >
+				  	<input class="input is-rounded is-danger is-medium" type="text" name="producto_precio" pattern="[0-9.]{1,25}" maxlength="25" required >
 				</div>
 		  	</div>
 		  	<div class="column">
 		    	<div class="control">
 					<label>Stock</label>
-				  	<input class="input" type="text" name="producto_stock" pattern="[0-9]{1,25}" maxlength="25" required >
+				  	<input class="input is-rounded is-danger is-medium" type="text" name="producto_stock" pattern="[0-9]{1,25}" maxlength="25" required >
 				</div>
 		  	</div>
 		  	<div class="column">
 				<label>Categoría</label><br>
-		    	<div class="select is-rounded">
+		    	<div class="select is-rounded is-medium is-danger">
 				  	<select name="producto_categoria" >
 				    	<option value="" selected="" >Seleccione una opción</option>
 				    	<?php
@@ -64,9 +64,9 @@
 				<label>Foto o imagen del producto</label><br />
 				<div class="file is-small has-name">
 				  	<label class="file-label">
-				    	<input class="file-input" type="file" name="producto_foto" accept=".jpg, .png, .jpeg" >
-				    	<span class="file-cta">
-				      		<span class="file-label">Imagen</span>
+				    	<input class="file-input is-danger" type="file" name="producto_foto" accept=".jpg, .png, .jpeg" >
+				    	<span class="file-cta is-danger">
+				      		<span class="file-label is-danger">Imagen</span>
 				    	</span>
 				    	<span class="file-name">JPG, JPEG, PNG. (MAX 3MB)</span>
 				  	</label>
@@ -74,7 +74,7 @@
 			</div>
 		</div>
 		<p class="has-text-centered">
-			<button type="submit" class="button is-danger animado is-rounded">Guardar</button>
+			<button type="submit" class="button is-danger animado is-rounded is-medium">Guardar</button>
 		</p>
 	</form>
 </div>
