@@ -1,7 +1,7 @@
-<div class="container is-fluid mb-6 center">
-    <h1 class="title">Categorías</h1>
-    <h2 class="subtitle">Lista de categoría</h2>
-</div>
+<div class="container pb-6 pt-6 notification is-danger is-light is-rounded center">
+	<div class="center">
+		<h1 class="title">Categorías</h1>
+		<h2 class="subtitle">Lista de categorías</h2>
 
 <div class="container pb-6 pt-6">
     <?php

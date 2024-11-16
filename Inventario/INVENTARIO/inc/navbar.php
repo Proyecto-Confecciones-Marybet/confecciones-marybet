@@ -66,8 +66,7 @@
                         Opciones de reportes
                     </div>
                     <hr class="navbar-divider">
-                <a href="index.php?vista=reportes_list" class="navbar-item">Generar reporte</a>
-                    <a href="index.php?vista=reportes_new" class="navbar-item">Ver reportes</a>
+                <a href="index.php?vista=reportes_new" class="navbar-item">Generar reporte</a>
                 </div>
             </div>
 

@@ -1,9 +1,9 @@
-<div class="container is-fluid mb-6 center">
-	<h1 class="title">Categorías</h1>
-	<h2 class="subtitle">Nueva categoría</h2>
-</div>
+<div class="container pb-6 pt-6 notification is-danger is-light is-rounded center">
+	<div class="center">
+		<h1 class="title">Categorías</h1>
+		<h2 class="subtitle">Agregar nueva categoría</h2>
 
-<div class="container pb-6 pt-6">
+<div class="container pb-6 pt-4">
 
 	<div class="form-rest mb-6 mt-6"></div>
 
