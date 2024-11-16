@@ -79,7 +79,7 @@
                     <a class="button is-danger is-light">
                         Acerca De
                     </a>
-                    <a class="button is-danger is-light">
+                    <a href="index.php?vista=ayuda" class="button is-danger is-light">
                         Ayuda
                     </a>
                     <a href="index.php?vista=user_update&user_id_up=<?php echo $_SESSION['id']; ?>" class="button is-danger is-light">
