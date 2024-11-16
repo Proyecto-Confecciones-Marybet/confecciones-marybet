@@ -76,7 +76,7 @@
 
             <div class="navbar-item">
                 <div class="buttons">
-                    <a class="button is-danger is-light">
+                    <a href="index.php?vista=acerca_de" class="button is-danger is-light">
                         Acerca De
                     </a>
                     <a href="index.php?vista=ayuda" class="button is-danger is-light">
