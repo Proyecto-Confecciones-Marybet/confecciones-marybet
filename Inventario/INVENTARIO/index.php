@@ -22,6 +22,8 @@
 
                 include "./inc/navbar.php";
 
+                include "./inc/footer.php";
+
                 include "./vistas/".$_GET['vista'].".php";
 
                 include "./inc/script.php";
