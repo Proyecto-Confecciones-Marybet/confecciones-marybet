@@ -1,56 +1,118 @@
-<div class="container is-fluid mb-6 center is-danger">
-	<h1 class="title">Usuarios</h1>
-	<h2 class="subtitle">Agregar nuevo usuario</h2>
+<div class="container is-fluid mb-6 has-text-centered">
+	<h1 class="title is-3 has-text-dark">Usuarios</h1>
+	<h2 class="subtitle is-5 has-text-grey-dark">Agregar nuevo usuario</h2>
 </div>
-<div class="container pb-6 pt-6">
 
+<div class="container pb-6 pt-6">
 	<div class="form-rest mb-6 mt-6"></div>
 
-	<form action="./php/usuario_guardar.php" method="POST" class="FormularioAjax" autocomplete="off" >
-		<div class="columns">
-		  	<div class="column">
-		    	<div class="control">
-					<label>Nombres</label>
-				  	<input class="input" type="text" name="usuario_nombre" pattern="[a-zA-ZáéíóúÁÉÍÓÚñÑ ]{3,40}" maxlength="40" required >
+	<form action="./php/usuario_guardar.php" method="POST" class="FormularioAjax" autocomplete="off">
+		<div class="columns is-multiline is-centered">
+			<div class="column is-half">
+				<div class="field">
+					<label class="label">Nombres</label>
+					<div class="control has-icons-left">
+						<input class="input is-rounded is-primary is-medium" 
+						       type="text" 
+						       name="usuario_nombre" 
+						       pattern="[a-zA-ZáéíóúÁÉÍÓÚñÑ ]{3,40}" 
+						       maxlength="40" 
+						       required>
+						<span class="icon is-small is-left">
+							<i class="fas fa-user"></i>
+						</span>
+					</div>
 				</div>
-		  	</div>
-		  	<div class="column">
-		    	<div class="control">
-					<label>Apellidos</label>
-				  	<input class="input" type="text" name="usuario_apellido" pattern="[a-zA-ZáéíóúÁÉÍÓÚñÑ ]{3,40}" maxlength="40" required >
+			</div>
+
+			<div class="column is-half">
+				<div class="field">
+					<label class="label">Apellidos</label>
+					<div class="control has-icons-left">
+						<input class="input is-rounded is-primary is-medium" 
+						       type="text" 
+						       name="usuario_apellido" 
+						       pattern="[a-zA-ZáéíóúÁÉÍÓÚñÑ ]{3,40}" 
+						       maxlength="40" 
+						       required>
+						<span class="icon is-small is-left">
+							<i class="fas fa-user"></i>
+						</span>
+					</div>
 				</div>
-		  	</div>
+			</div>
+
+			<div class="column is-half">
+				<div class="field">
+					<label class="label">Usuario</label>
+					<div class="control has-icons-left">
+						<input class="input is-rounded is-info is-medium" 
+						       type="text" 
+						       name="usuario_usuario" 
+						       pattern="[a-zA-Z0-9]{4,20}" 
+						       maxlength="20" 
+						       required>
+						<span class="icon is-small is-left">
+							<i class="fas fa-user-tag"></i>
+						</span>
+					</div>
+				</div>
+			</div>
+
+			<div class="column is-half">
+				<div class="field">
+					<label class="label">Email</label>
+					<div class="control has-icons-left">
+						<input class="input is-rounded is-info is-medium" 
+						       type="email" 
+						       name="usuario_email" 
+						       maxlength="70">
+						<span class="icon is-small is-left">
+							<i class="fas fa-envelope"></i>
+						</span>
+					</div>
+				</div>
+			</div>
+
+			<div class="column is-half">
+				<div class="field">
+					<label class="label">Clave (Usar mayúsculas y mínimo 1 carácter, mínimo 7 dígitos)</label>
+					<div class="control has-icons-left">
+						<input class="input is-rounded is-warning is-medium" 
+						       type="password" 
+						       name="usuario_clave_1" 
+						       pattern="[a-zA-Z0-9$@.-]{7,100}" 
+						       maxlength="100" 
+						       required>
+						<span class="icon is-small is-left">
+							<i class="fas fa-lock"></i>
+						</span>
+					</div>
+				</div>
+			</div>
+
+			<div class="column is-half">
+				<div class="field">
+					<label class="label">Repetir clave</label>
+					<div class="control has-icons-left">
+						<input class="input is-rounded is-warning is-medium" 
+						       type="password" 
+						       name="usuario_clave_2" 
+						       pattern="[a-zA-Z0-9$@.-]{7,100}" 
+						       maxlength="100" 
+						       required>
+						<span class="icon is-small is-left">
+							<i class="fas fa-lock"></i>
+						</span>
+					</div>
+				</div>
+			</div>
+
+			<div class="column is-full has-text-centered">
+				<button type="submit" class="button is-danger is-rounded is-medium is-hovered">
+					Guardar
+				</button>
+			</div>
 		</div>
-		<div class="columns">
-		  	<div class="column">
-		    	<div class="control">
-					<label>Usuario</label>
-				  	<input class="input" type="text" name="usuario_usuario" pattern="[a-zA-Z0-9]{4,20}" maxlength="20" required >
-				</div>
-		  	</div>
-		  	<div class="column">
-		    	<div class="control">
-					<label>Email</label>
-				  	<input class="input" type="email" name="usuario_email" maxlength="70" >
-				</div>
-		  	</div>
-		</div>
-		<div class="columns">
-		  	<div class="column">
-		    	<div class="control">
-					<label>Clave (Usar mayúsculas y mínimo 1 carácter, mínimo 7 dígitos)</label>
-				  	<input class="input" type="password" name="usuario_clave_1" pattern="[a-zA-Z0-9$@.-]{7,100}" maxlength="100" required >
-				</div>
-		  	</div>
-		  	<div class="column">
-		    	<div class="control">
-					<label>Repetir clave</label>
-				  	<input class="input" type="password" name="usuario_clave_2" pattern="[a-zA-Z0-9$@.-]{7,100}" maxlength="100" required >
-				</div>
-		  	</div>
-		</div>
-		<p class="has-text-centered">
-			<button type="submit" class="button is-danger is-rounded animado">Guardar</button>
-		</p>
 	</form>
 </div>
