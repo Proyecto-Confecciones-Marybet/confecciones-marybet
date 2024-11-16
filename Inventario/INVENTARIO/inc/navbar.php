@@ -70,6 +70,18 @@
                 </div>
             </div>
 
+            <div class="navbar-item has-dropdown is-hoverable">
+                <a class="navbar-link">Notificaciones</a>
+
+                <div class="navbar-dropdown">
+                <div class="navbar-item">
+                        Opciones de Notificaciones
+                    </div>
+                    <hr class="navbar-divider">
+                <a href="index.php?vista=config_notificaciones" class="navbar-item">Modificar notificaciones</a>
+                </div>
+            </div>
+
         </div>
 
         <div class="navbar-end">

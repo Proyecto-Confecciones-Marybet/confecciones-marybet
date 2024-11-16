@@ -5,6 +5,14 @@ SET time_zone = "+00:00";
 
 -- Base de datos: `pdo`
 
+
+CREATE TABLE config_notificaciones (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    tipo_notificacion VARCHAR(50) NOT NULL,
+    valor INT NOT NULL
+);
+
+INSERT INTO config_notificaciones (tipo_notificacion, valor) VALUES ('bajo_stock', 10);
 -- --------------------------------------------------------
 
 --

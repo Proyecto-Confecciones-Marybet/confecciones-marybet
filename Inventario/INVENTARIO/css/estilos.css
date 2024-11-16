@@ -7,7 +7,7 @@ html, body {
     background-size: cover; /* Asegura que la imagen cubra toda la pantalla */
     background-attachment: fixed; /* Hace que el fondo sea fijo */
     background-position: center; /* Centra la imagen */
-    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    background-repeat: repeat; /* Evita que la imagen se repita */
     background-color: transparent; /* Elimina cualquier fondo blanco */
 }
 
