@@ -36,11 +36,18 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     <title>Configuración de Notificaciones</title>
 </head>
 <body>
-    <h1>Configuración de Notificaciones de Stock</h1>
-    <form action="" method="POST">
-        <label for="min_stock">Cantidad mínima de stock para notificación de bajo stock:</label>
-        <input type="number" id="min_stock" name="min_stock" value="<?php echo htmlspecialchars($min_stock_actual); ?>" required>
-        <button type="submit">Guardar</button>
-    </form>
+<div class="container pb-6 pt-6 notification is-danger is-light is-rounded center">
+	<div class="center">
+		<h1 class="title">Notificaciones</h1>
+		<h2 class="subtitle">Modificar notificaciones</h2>
+
+    <div class="container pb-6 pt-6">
+        <form action="" method="POST">
+            <label for="min_stock">Ingrese la cantidad mínima de stock</label>
+            <input type="number" class="input is-rounded is-danger" id="min_stock" name="min_stock" value="<?php echo htmlspecialchars($min_stock_actual); ?>" required> <br /><br />
+            <button type="submit" class="button is-danger animado is-medium">Guardar</button>
+        </form>
+    </div>
+</div>
 </body>
 </html>

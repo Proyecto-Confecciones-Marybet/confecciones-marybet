@@ -15,7 +15,6 @@
         exit();
     }
 
-
     /*== Verificando integridad de los datos ==*/
     if(verificar_datos("[a-zA-Z0-9]{4,20}",$usuario)){
         echo '
