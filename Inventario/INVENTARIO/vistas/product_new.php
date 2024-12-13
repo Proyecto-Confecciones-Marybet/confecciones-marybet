@@ -58,8 +58,7 @@
 				  	</select>
 				</div>
 		  	</div>
-		</div>
-		<div class="columns">
+			  <div class="columns pt-5">
 			<div class="column">
 				<label>Foto o imagen del producto</label><br />
 				<div class="file is-small has-name">
@@ -73,8 +72,10 @@
 				</div>
 			</div>
 		</div>
-		<p class="has-text-centered">
-			<button type="submit" class="button is-danger animado is-rounded is-medium">Guardar</button>
+		</div>
+
+		<p class="has-text-centered pt-6">
+			<button type="submit" class="button is-danger animado is-rounded is-large">Guardar</button>
 		</p>
 	</form>
 </div>

@@ -46,6 +46,10 @@ html, body {
 
 }
 
+.izq{
+    text-align: left; /* Asegura que todo el texto dentro del formulario esté alineado a la izquierda */
+}
+
 /* CLASE ANIMADO, PARA ANIMAR BOTONES !!! */
 .animado {
 	display: inline-block;

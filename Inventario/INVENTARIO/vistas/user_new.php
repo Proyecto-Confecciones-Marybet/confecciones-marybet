@@ -10,7 +10,7 @@
 		<div class="columns is-multiline is-centered">
 			<div class="column is-half">
 				<div class="field">
-					<label class="label">Nombres</label>
+					<label>Nombres</label>
 					<div class="control has-icons-left">
 						<input class="input is-rounded is-danger is-medium" 
 						       type="text" 
@@ -27,7 +27,7 @@
 
 			<div class="column is-half">
 				<div class="field">
-					<label class="label">Apellidos</label>
+					<label>Apellidos</label>
 					<div class="control has-icons-left">
 						<input class="input is-rounded is-danger is-medium" 
 						       type="text" 
@@ -44,7 +44,7 @@
 
 			<div class="column is-half">
 				<div class="field">
-					<label class="label">Usuario</label>
+					<label>Usuario</label>
 					<div class="control has-icons-left">
 						<input class="input is-rounded is-danger is-medium" 
 						       type="text" 
@@ -61,7 +61,7 @@
 
 			<div class="column is-half">
 				<div class="field">
-					<label class="label">Email</label>
+					<label>Email</label>
 					<div class="control has-icons-left">
 						<input class="input is-rounded is-danger is-medium" 
 						       type="email" 
@@ -76,7 +76,7 @@
 
 			<div class="column is-half">
 				<div class="field">
-					<label class="label">Clave (Usar mayúsculas y mínimo 1 carácter, mínimo 7 dígitos)</label>
+					<label>Clave (Usar mayúsculas y mínimo 1 carácter, mínimo 7 dígitos)</label>
 					<div class="control has-icons-left">
 						<input class="input is-rounded is-danger is-medium" 
 						       type="password" 
@@ -93,7 +93,7 @@
 
 			<div class="column is-half">
 				<div class="field">
-					<label class="label">Repetir clave</label>
+					<label>Repetir clave</label>
 					<div class="control has-icons-left">
 						<input class="input is-rounded is-danger is-medium" 
 						       type="password" 

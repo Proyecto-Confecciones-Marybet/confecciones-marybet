@@ -1,4 +1,7 @@
-<?php require "./inc/session_start.php"; ?>
+<?php
+require "./inc/session_start.php";
+ob_start(); // Inicia el buffer de salida
+?>
 <!DOCTYPE html>
 <html>
     <head>
@@ -6,26 +9,20 @@
     </head>
     <body>
         <?php
-
             if(!isset($_GET['vista']) || $_GET['vista']==""){
                 $_GET['vista']="login";
             }
 
-
             if(is_file("./vistas/".$_GET['vista'].".php") && $_GET['vista']!="login" && $_GET['vista']!="404"){
 
-                /*== Cerrar sesion ==*/
                 if((!isset($_SESSION['id']) || $_SESSION['id']=="") || (!isset($_SESSION['usuario']) || $_SESSION['usuario']=="")){
                     include "./vistas/logout.php";
                     exit();
                 }
 
                 include "./inc/navbar.php";
-
                 include "./inc/footer.php";
-
                 include "./vistas/".$_GET['vista'].".php";
-
                 include "./inc/script.php";
 
             }else{
@@ -38,3 +35,4 @@
         ?>
     </body>
 </html>
+<?php ob_end_flush(); // Termina el buffer de salida ?>

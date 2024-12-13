@@ -57,6 +57,7 @@ CREATE TABLE `usuario` (
   `usuario_email` varchar(70) CHARACTER SET utf8mb4 COLLATE utf8mb4_spanish2_ci NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_spanish2_ci;
 
+
 --
 -- Volcado de datos para la tabla `usuario`
 --
@@ -87,6 +88,8 @@ ALTER TABLE `producto`
 --
 ALTER TABLE `usuario`
   ADD PRIMARY KEY (`usuario_id`);
+
+ALTER TABLE `usuario` ADD `usuario_rol` ENUM('Administrador', 'Empleado') NOT NULL DEFAULT 'Empleado';
 
 --
 -- AUTO_INCREMENT de las tablas volcadas

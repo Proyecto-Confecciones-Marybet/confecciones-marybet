@@ -34,3 +34,4 @@ function enviar_formulario_ajax(e){
 formularios_ajax.forEach(formularios => {
     formularios.addEventListener("submit",enviar_formulario_ajax);
 });
+

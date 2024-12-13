@@ -6,10 +6,30 @@
 
 <section class="section container2 center">
     <div class="container center notification is-danger">
-        <p class="subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis pellentesque eros sollicitudin tellus sagittis, finibus rhoncus odio sodales. Donec velit tortor, pellentesque ut orci eget, dictum euismod lectus. Phasellus vel purus lacus. Nam nec justo eget quam vehicula laoreet quis at nisi. Pellentesque semper erat id congue ultrices. Quisque sit amet neque malesuada felis ornare elementum in sit amet eros. Praesent luctus non sapien eu faucibus. Aenean velit erat, semper a magna id, condimentum pharetra libero. Nam sit amet odio a augue eleifend facilisis a nec elit.</p>
+        <p class="subtitle">Acerca de Confecciones Marybet</p>
             
-        <p>Etiam congue risus id tellus consectetur, sed fringilla felis ultrices. Etiam pellentesque tempus est ac ultrices. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In posuere tempor mauris, ut varius magna dictum lobortis. Duis tortor orci, dapibus in metus non, eleifend placerat ex. Nunc a arcu nec nisl pellentesque vestibulum. Aliquam a dui tristique odio fringilla condimentum sed eget felis. Pellentesque turpis nisi, lobortis sed est semper, luctus faucibus nisl. Duis et pulvinar neque. Duis quis ipsum nulla. Mauris mi nisl, bibendum vitae vehicula non, varius non diam. Maecenas dui elit, elementum placerat nisl ac, molestie cursus nibh. Integer vel molestie ipsum. Morbi mauris sapien, auctor eu ligula at, consequat iaculis felis. Nulla euismod risus id feugiat tincidunt.</p>
+        <p>
+            Bienvenido al sistema de gestión de inventarios de Confecciones Marybet, una solución diseñada exclusivamente para optimizar y modernizar las operaciones de nuestro taller de confección de ropa. Desde nuestra fundación, nos hemos dedicado a la creación de prendas y accesorios de alta calidad, comprometidos con la satisfacción de nuestros clientes y la excelencia en cada detalle.
+
+            ¿Quiénes somos?
+            Somos un taller local con más de una década de experiencia en la confección de uniformes escolares, ropa personalizada y ajustes de prendas. A lo largo de los años, hemos evolucionado para adoptar nuevas herramientas y tecnologías, manteniendo siempre nuestra dedicación al trabajo artesanal y a las necesidades específicas de nuestros clientes.
+
+            ¿Por qué este sistema?
+            Este sistema de gestión fue desarrollado como parte de un esfuerzo para hacer nuestras operaciones más eficientes y organizadas. Ahora, con esta herramienta, podemos:
+
+            Llevar un control preciso de nuestro inventario.
+            Automatizar tareas repetitivas como la actualización de stock.
+            Generar reportes detallados para tomar decisiones informadas.
+            Nuestro compromiso
+            Aunque esta página funciona únicamente de forma local, refleja nuestro compromiso con la innovación y la mejora continua. Este sistema está diseñado para ser intuitivo, accesible y completamente adaptado a las necesidades de nuestro taller, asegurando que nuestras operaciones diarias sean más rápidas y efectivas.
+
+            Explora nuestra solución
+            En esta página encontrarás herramientas para gestionar usuarios, categorías y productos, así como opciones para generar reportes y recibir notificaciones. Todo está pensado para facilitar el día a día de quienes forman parte de Confecciones Marybet.
+
+            Gracias por ser parte de esta evolución tecnológica en nuestro taller. 
+            ¡Sigamos creando juntos!
+        </p>
         
-        <p>Duis et hendrerit nunc. Nulla imperdiet risus sed ipsum tempor, vitae consectetur sem convallis. Aliquam id dignissim tellus, ut laoreet odio. Integer ullamcorper turpis et lectus varius, a malesuada est auctor. Ut euismod pretium diam, at feugiat felis fringilla eget. In dapibus a velit a consectetur. Suspendisse feugiat cursus rhoncus. Etiam pharetra fermentum nulla ut dapibus. Nullam faucibus mauris vitae urna egestas, vitae varius enim blandit. Fusce est felis, pretium ut ante sit amet, imperdiet facilisis dui. Donec augue enim, faucibus nec erat id, feugiat viverra arcu. Mauris mattis cursus lectus, non commodo mi auctor sit amet. Maecenas viverra sapien malesuada dui accumsan, varius hendrerit leo vulputate. Suspendisse tempor efficitur risus sed bibendum.</p>
+        
     </div>
 </section>
